@@ -56,5 +56,8 @@ group :development do
 
   # Mutes assets pipeline log messages
   gem 'quiet_assets'
+
+  # Colorized SQL Logging Backport for ActiveRecord
+  gem 'activerecord-colored_log_subscriber'
 end
 
