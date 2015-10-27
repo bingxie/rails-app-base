@@ -53,6 +53,7 @@ GEM
     execjs (2.6.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
+    high_voltage (2.4.0)
     i18n (0.7.0)
     jquery-rails (4.0.5)
       rails-dom-testing (~> 1.0)
@@ -138,6 +139,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
+  high_voltage
   jquery-rails
   pg
   rails (= 4.2.4)

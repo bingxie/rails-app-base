@@ -18,6 +18,11 @@ gem 'turbolinks'
 # Use Unicorn as the app server
 gem 'unicorn'
 
+#### Functional Gems
+
+# Easily include static pages in your Rails app
+gem 'high_voltage'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
