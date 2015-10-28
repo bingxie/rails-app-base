@@ -24,6 +24,12 @@ gem "slim-rails"
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  # An IRB alternative and runtime developer console
+  gem 'pry'
+  # causes rails console to open pry
+  gem 'pry-rails'
+  # Pry navigation commands via byebug
+  gem 'pry-byebug'
 end
 
 group :development do
