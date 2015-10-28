@@ -45,5 +45,8 @@ group :development do
 
   # Colorized SQL Logging Backport for ActiveRecord
   gem 'activerecord-colored_log_subscriber'
+
+  # Supporting gem for Rails Panel
+  gem 'meta_request'
 end
 
