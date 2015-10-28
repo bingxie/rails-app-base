@@ -48,5 +48,8 @@ group :development do
 
   # Supporting gem for Rails Panel
   gem 'meta_request'
+
+  # Mutes assets pipeline log messages
+  gem 'quiet_assets'
 end
 
