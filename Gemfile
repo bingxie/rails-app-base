@@ -35,6 +35,7 @@ group :development do
 
   # Better error page for Rack apps
   gem "better_errors"
+  gem "binding_of_caller"
 
   # Colorized SQL Logging Backport for ActiveRecord
   gem 'activerecord-colored_log_subscriber'
