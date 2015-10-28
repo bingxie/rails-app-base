@@ -48,9 +48,6 @@ group :development do
   gem "better_errors"
   gem "binding_of_caller"
 
-  # Colorized SQL Logging Backport for ActiveRecord
-  gem 'activerecord-colored_log_subscriber'
-
   # Supporting gem for Rails Panel
   gem 'meta_request'
 
@@ -59,5 +56,8 @@ group :development do
 
   # Colorized SQL Logging Backport for ActiveRecord
   gem 'activerecord-colored_log_subscriber'
+
+  gem "rack-livereload"
+  gem 'guard-livereload', '~> 2.4', require: false
 end
 
