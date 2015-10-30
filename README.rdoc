@@ -1,28 +1,58 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Dev
 
-Things you may want to cover:
+gem 'lograge'
 
-* Ruby version
+gem "rack-dev-mark"
 
-* System dependencies
+gem 'brakeman',          '~> 2.1.0',  :require => false
 
-* Configuration
+gem 'ffaker'
 
-* Database creation
+gem 'rubocop',           '~> 0.18.1'
 
-* Database initialization
+gem 'turnip'
 
-* How to run the test suite
+gem 'awesome_print'
 
-* Services (job queues, cache servers, search engines, etc.)
+gem 'thin'
 
-* Deployment instructions
+annotate – auto-generates schema documentation
 
-* ...
+xray-rails – inspect view partials in the browser
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+### Security
+secure_headers – hardens your app against XSS attacks
+
+
+### Test
+
+gem 'launchy'
+
+simplecov – code coverage reports
+
+### Server
+unicorn-worker-killer – to manage memory use
+
+### UI
+gem 'font-awesome-rails',     '~> 4.2.0'
+
+gem 'select2-rails'
+
+gem 'pjax_rails'
+
+source "https://rails-assets.org" do
+  gem "rails-assets-chartjs"
+end
+
+### function
+
+gem kaminari
+
+# feature flags
+gem 'flip'
+
+# Activerecord Tagging
+gem 'acts-as-taggable-on'
