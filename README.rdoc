@@ -16,7 +16,6 @@ gem 'turnip'
 
 gem 'awesome_print'
 
-gem 'thin'
 
 annotate – auto-generates schema documentation
 
