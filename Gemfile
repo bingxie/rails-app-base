@@ -3,10 +3,11 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
+gem 'rails-i18n', github: 'svenfuchs/rails-i18n', branch: 'master' # For 4.x
 # Use postgresql as the database for Active Record
 gem 'pg'
 
-# load environment variables from .env into ENV
+# Load environment variables from .env into ENV
 gem 'dotenv-rails'
 
 # Sass-powered version of Bootstrap
@@ -40,7 +41,7 @@ group :development, :test do
   gem 'byebug'
   # An IRB alternative and runtime developer console
   gem 'pry'
-  # causes rails console to open pry
+  # Causes rails console to open pry
   gem 'pry-rails'
   # Pry navigation commands via byebug
   gem 'pry-byebug'
@@ -66,9 +67,11 @@ group :development do
   # Colorized SQL Logging Backport for ActiveRecord
   gem 'activerecord-colored_log_subscriber'
 
+  # Automatically reload your browser when 'view' files are modified
   gem "rack-livereload"
   gem 'guard-livereload', '~> 2.4', require: false
 
+  # A very fast & simple Ruby web server
   gem "thin"
 end
 
