@@ -30,6 +30,8 @@ gem 'unicorn'
 # Slim templates generator
 gem "slim-rails"
 
+gem "font-awesome-rails"
+
 #### Functional Gems
 
 # Easily include static pages in your Rails app
