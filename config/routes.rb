@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get 'movies/index'
+  resources :movies, only: [:index, :show]
 
   if Rails.env.development?
     mount LetterOpenerWeb::Engine, at: "/letter_opener"
