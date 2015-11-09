@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(version: 20151109051929) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+  enable_extension "hstore"
 
   create_table "crews", force: :cascade do |t|
     t.string   "name"
@@ -28,9 +29,9 @@ ActiveRecord::Schema.define(version: 20151109051929) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "genres_movies", force: :cascade do |t|
-    t.integer "movie_id"
+  create_table "genres_movies", id: false, force: :cascade do |t|
     t.integer "genre_id"
+    t.integer "movie_id"
   end
 
   add_index "genres_movies", ["genre_id"], name: "index_genres_movies_on_genre_id", using: :btree
