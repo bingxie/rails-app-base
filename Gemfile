@@ -80,6 +80,9 @@ group :development do
 
   # A web interface for browsing Ruby on Rails sent emails
   gem 'letter_opener_web', '~> 1.3.0'
+
+  # Rails Database Viewer and SQL Query Runner
+  gem 'rails_db'
 end
 
 group :test do
