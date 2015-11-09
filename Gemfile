@@ -37,6 +37,9 @@ gem "font-awesome-rails"
 # Easily include static pages in your Rails app
 gem 'high_voltage'
 
+gem 'elasticsearch-model'
+gem 'elasticsearch-rails'
+
 # Middleware that displays speed badge for every html page
 gem 'rack-mini-profiler'
 
